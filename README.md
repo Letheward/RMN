@@ -111,7 +111,7 @@ F#10: T6
     }
     ~~~
 
-    after `:`, divide the whole note by `rational number`.
+    after `:`, divide the wholenote by an `integer`.
     
     This is a syntax sugar to improve readability.
 
@@ -123,11 +123,11 @@ F#10: T6
     }
     ~~~
 
-    by `/`, use fraction to express duration.
+    by `/`, use fractions to express duration.
     
     `40:1/4/5` means divided by `4` then divided by `5`, equals to `40:20`.
     
-    3 wholetones must be written as `3/1`, writing `3` equals to `1/3`.
+    3 wholenotes must be written as `3/1`, writing `3` equals to `1/3`.
 
 - Rest:
 
