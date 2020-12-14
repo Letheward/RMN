@@ -52,7 +52,7 @@ piano {
 
 RMN use integer notation and Base 12 numbers. 
 
-Because of using integer notation, sharp or flat doesn"t matter, like in MIDI.
+Because of using integer notation, sharp or flat doesn't matter, like in MIDI.
 
 RMN Only use absolute pitch with `C0` = `00`, like Lilypond use `c'` for `C4`.
 
