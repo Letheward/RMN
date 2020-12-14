@@ -42,7 +42,7 @@ piano {
 
 `40:4`
 
-- `C4`, fourth note, `:` for declaring note duration 
+- `C4`, quarter note, `:` for declaring note duration 
 
 `,`
 
