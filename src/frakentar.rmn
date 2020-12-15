@@ -1,0 +1,30 @@
+frakentar [
+    perc [
+        scratch,
+        knock,
+    ],
+    seq [
+        lick {
+            30:8 32 33 35 32:4 2t:8 30~,
+            30:4 r r:2,
+        },
+    ],
+    chord [
+        CMaj7 <40 44 47 4e>,
+        AbMaj7 <38 40 43 47>,
+        Dm7 <42 45 49 50>,
+    ],
+    part [
+        A {
+            {perc.scratch:8 perc.knock:3/16,}*5
+            seq.lick*3
+        },
+        B {  
+            chord.CMaj7:2 chord.AbMaj7,
+            chord.Dm7:4 chord.CMaj7 chord.AbMaj7:2,
+        },
+    ],
+] {
+    part.A part.A part.B part.A
+    part.B part.B part.A part.A
+}
