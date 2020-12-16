@@ -10,7 +10,7 @@ No sharp or flat, no typesetting, no dynamics, no grace note, no performance tec
 
 Similiar to LilyPond with CSS and JSON flavor
 
-> See [src/LilyPond_to_RMN/](src/LilyPond_to_RMN/) for a LilyPond file translated to RMN
+> See [src/ly2rmn/](src/ly2rmn/) for a LilyPond file translated to RMN
 
 ### Basic
 
@@ -405,16 +405,24 @@ MIME: `text/plain`
 
 Filename Extention: `.rmn`
 
+## License
+
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) except where noted.
+
+Everything in [src/](src/) is in Public Domain.
+
+LilyPond source code in [src/ly2rmn/](src/ly2rmn/) is from the official [LilyPond Documentation](http://lilypond.org/doc/v2.20/Documentation/notation/pitches), modified for better reading experience. The original snippet is in Public Domain.
+
 ## Reference
 
-LilyPond: 
+[LilyPond](http://lilypond.org/): 
 
-- readable, but use traditional system and have too much typesetting related function
+- readable, but use traditional system and have too much typesetting related function.
 
-MusicXML: 
+[MusicXML](https://www.musicxml.com/): 
 
-- not very readable, also use traditional system
+- not very readable, also use traditional system.
 
-MIDI: 
+[MIDI](https://www.midi.org/): 
 
-- kinda readable, but not good for mind model, not plain text
+- kinda readable, but not good for mind model, not plain text.
