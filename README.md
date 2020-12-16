@@ -242,7 +242,7 @@ piano {
     
     `piano_voice1` is just a string, you can use anything you like.
 
-    It's then possible to notate a frakenstein instrument (mounting a flute on a guitar and with pitchrange overlapping). Just choose the right object name for each part.
+    It's then possible to notate a frankenstein instrument (mounting a flute on a guitar and with pitchrange overlapping). Just choose the right object name for each part.
 
     You can also notate guitars with 6 objects (each for a guitar string) this way.
 
@@ -263,12 +263,12 @@ piano {
 
 > Note: this part is kinda messy now, maybe it won't stay in future syntax standards.
 
-A notation of a frakentar instument playing a song.
+A notation of a frankentar instument playing a song.
 
-> See [src/frakentar/](src/frakentar/) for a hardcore version and a JSON version.
+> See [src/frankentar/](src/frankentar/) for a hardcore version and a JSON version.
 
 ~~~
-frakentar [
+frankentar [
     perc [
         scratch,
         knock,
@@ -303,14 +303,14 @@ frakentar [
 - Data Structure:
 
     ~~~
-    frakentar [] {}
+    frankentar [] {}
     ~~~
 
-    `frakentar` is an object. An object is often an instrument or a voice.
+    `frankentar` is an object. An object is often an instrument or a voice.
     
     `[]` for a meta-array describing percussions, chords, sequences, song parts, etc.
 
-    `{}` for a meta-event: All the events `frakentar` do.
+    `{}` for a meta-event: All the events `frankentar` do.
 
     ~~~
     perc [
@@ -395,7 +395,7 @@ frakentar [
     }
     ~~~
 
-    The meta-event of object `frakentar`.
+    The meta-event of object `frankentar`.
 
     `part.A` is a way to call event `A` in array `part`.
 
