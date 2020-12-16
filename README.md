@@ -8,7 +8,9 @@ No sharp or flat, no typesetting, no dynamics, no grace note, no performance tec
 
 ## Syntax
 
-Similiar to Lilypond with CSS and JSON flavor
+Similiar to LilyPond with CSS and JSON flavor
+
+> See [src/LilyPond_to_RMN/](src/LilyPond_to_RMN/) for a LilyPond file translated to RMN
 
 ### Basic
 
@@ -72,7 +74,7 @@ piano {
 
     Because of using integer notation, sharp or flat doesn't matter, like in MIDI.
 
-    RMN **ONLY** use absolute pitch with `C0` = `00`, like Lilypond use `c'` for `C4` in absolute mode.
+    RMN **ONLY** use absolute pitch with `C0` = `00`, like LilyPond use `c'` for `C4` in absolute mode.
 
 - Transpose
 
@@ -155,9 +157,9 @@ piano {
     }
     ~~~
 
-    Similiar to Lilypond, You can ignore duration declaring if it's the same as the previous note. 
+    Similiar to LilyPond, You can ignore duration declaring if it's the same as the previous note. 
 
-    There is no default duration like `4` in Lilypond.
+    There is no default duration like `4` in LilyPond.
     
     If you want less confusion you can always declare them all.
 
@@ -200,6 +202,8 @@ piano {
     ~~~
 
     `~` for tie the note before to the next.
+
+    If used after a group, only tie the identical note(s) in the group to the next group(note). (See "Multiple Voices"))
 
 - Time Signature:
 
@@ -261,7 +265,7 @@ piano {
 
 A notation of a frakentar instument playing a song.
 
-> See `src/` for a hardcore version.
+> See [src/frakentar/](src/frakentar/) for a hardcore version and a JSON version.
 
 ~~~
 frakentar [
@@ -403,7 +407,7 @@ Filename Extention: `.rmn`
 
 ## Reference
 
-Lilypond: 
+LilyPond: 
 
 - readable, but use traditional system and have too much typesetting related function
 
